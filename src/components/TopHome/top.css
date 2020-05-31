@@ -1,0 +1,31 @@
+.Header{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+#search-icon {
+  color: #ffffff;
+  position: relative;
+  margin-right: 30px;
+}
+
+.Logo {
+  background-color: rgb(220,220,220);
+  border-radius: 60px;
+  font-family: Chelsea Market, cursive;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.150em;
+  padding: 10px 20px;
+}
+
+.Header input {
+  padding: 5px;
+  border-radius: 60px;
+  width: 350px;
+  margin: 0 20px;
+  font-size: 20px;
+  font-family: Playfair Display;
+}
