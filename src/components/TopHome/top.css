@@ -1,19 +1,14 @@
 .Header{
-  width: 1350px;
-  height: 70vh;
+  width: 100%;
+  height: 55vh;
   background-image: url(https://3.bp.blogspot.com/-B8CMfuuA6bw/Uj35Hq_4l7I/AAAAAAAABVA/EXVvlGtxwEo/s1600/imageneshilandy.blogspot.com+-+Demi+Lovato+-+Cantando+-+Wallpapers.jpg);
-}
-
-#search-icon {
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 1140px;
-  display: flex;
+  padding-top: 70px;
+  margin-bottom: 80px;
 }
 
 .Logo {
-  bottom: 80px;
-  margin-left: 150px;
+  position: relative;
+  margin-left: 170px;
   background-color: rgb(220,220,220);
   width: 100px;
   border-radius: 60px;
@@ -25,11 +20,39 @@
   padding: 10px 20px;
 }
 
+.Header h1{
+  font-size: 60px;
+  font-family: Playfair Display;
+  color: rgb(32,189,98);
+}
+
 .Header input {
+  background: transparent;
   padding: 5px;
-  border-radius: 60px;
-  width: 350px;
-  margin: 0 20px;
+  border-image: none;
+  border: none;
+  width: 300px;
+  margin: 0px 20px;
+  display: inline-block;
   font-size: 20px;
   font-family: Playfair Display;
+}
+
+.input-icon{
+  position: relative;
+  margin-top: 175px;
+  padding: 5px;
+  height: 40px;
+  width: 600px;
+  background-color: var(--background-card-color);
+  border-radius: 60px;
+  alignment-baseline: central;
+  vertical-align: middle;
+  margin-left: 650px;
+}
+
+.input-icon span{
+  position: relative;
+  top: 10%;
+  color: rgb(80, 80, 80);
 }

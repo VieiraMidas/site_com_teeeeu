@@ -11,6 +11,15 @@
 --destak-color: #CE6300;
 }
 
+#h1{
+	color: var(--background-card-color);
+	text-decoration: underline;
+	text-align: left;
+	font-size: 40px;
+	font-family: Playfair Display;
+	margin-left: 40px; 
+}
+
 
 .content {
 	display: flex;
