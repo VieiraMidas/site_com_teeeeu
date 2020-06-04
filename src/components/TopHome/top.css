@@ -1,17 +1,21 @@
 .Header{
-  display: flex;
-  padding: 15px;
-  justify-content: space-between;
+  width: 1350px;
+  height: 70vh;
+  background-image: url(https://3.bp.blogspot.com/-B8CMfuuA6bw/Uj35Hq_4l7I/AAAAAAAABVA/EXVvlGtxwEo/s1600/imageneshilandy.blogspot.com+-+Demi+Lovato+-+Cantando+-+Wallpapers.jpg);
 }
 
 #search-icon {
-  color: #ffffff;
-  position: relative;
-  margin-right: 30px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 1140px;
+  display: flex;
 }
 
 .Logo {
+  bottom: 80px;
+  margin-left: 150px;
   background-color: rgb(220,220,220);
+  width: 100px;
   border-radius: 60px;
   font-family: Chelsea Market, cursive;
   font-size: 20px;
