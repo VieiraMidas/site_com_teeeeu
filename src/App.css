@@ -20,6 +20,10 @@
 	margin-left: 40px; 
 }
 
+p{
+	color: #3FA1A7;
+	text-decoration: underline;
+}
 
 .content {
 	display: flex;

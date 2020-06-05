@@ -3,6 +3,7 @@ import './App.css';
 import Top from "./components/TopHome"
 import CardSerie from "./components/card/card"
 import Carrossel from "./components/carrossel/carrossel"
+import Test from "./components/carrossel/test"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </div>
       <h1 id="h1">+ Notícias</h1>
       <Carrossel />
+      <p>more</p>
     </div>
   );
 }
