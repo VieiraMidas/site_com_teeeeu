@@ -1,24 +1,22 @@
 import React from 'react';
+import {BrowserRouter, Switch, Route, NavLink} from 'react-router-dom'
 import './App.css';
-import Top from "./components/TopHome"
-import CardSerie from "./components/card/card"
-import Carrossel from "./components/carrossel/carrossel"
-import Test from "./components/carrossel/test"
+
+import Novidades from "./pages/novidades/novidades"
+import Letra from "./pages/letra/letra"
 
 function App() {
   return (
     <div className="App">
-      <Top />
-      <h1 id="h1">+ Acessados</h1>
-      <div className="content">
-      	<CardSerie />
-      	<CardSerie />
-      	<CardSerie />
-      	<CardSerie />
-      </div>
-      <h1 id="h1">+ Notícias</h1>
-      <Carrossel />
-      <p>more</p>
+      <BrowserRouter>
+        <NavLink to="/novidades" className="nav-link">Novidades</NavLink>
+        <NavLink to="/letra" className="nav-link">Letra</NavLink>
+        <Switch>
+          <Route exact path="/" component={Novidades} />
+          <Route path="/novidades" component={Novidades} />
+          <Route path="/letra" component={Letra} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
