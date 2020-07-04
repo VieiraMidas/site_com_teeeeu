@@ -10,8 +10,8 @@ export default function Card({music}){
 				style= {{ backgroundImage: `url(${music.pic_src}`}}></div>
 				<div className="card-detail">
 					<h1 id="musica">{music.musTitle}</h1>
-					<h2 class="sub-itens">{music.title}</h2>
-					<h2 class="sub-itens">{music.date_fmt}</h2>
+					<h2 className="sub-itens">{music.title}</h2>
+					<h2 className="sub-itens">{music.date_fmt}</h2>
 				</div>
 			</div>
 		</div>

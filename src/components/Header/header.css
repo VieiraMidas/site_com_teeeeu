@@ -1,0 +1,47 @@
+.busca-layout{
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.Logo-busca {
+    margin-left: 100px;
+    background-color: rgb(220,220,220);
+    width: 100px;
+    border-radius: 60px;
+    font-family: Chelsea Market, cursive;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.150em;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.input-busca {
+    padding: 5px;
+    height: 40px;
+    width: 800px;
+    background-color: var(--background-card-color);
+    border-radius: 60px;
+    margin-left: 60px;
+    display: inline-block;
+}
+
+.busca-layout input {
+    background: transparent;
+    padding: 5px;
+    border-image: none;
+    border: none;
+    width: 500px;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-family: Playfair Display;
+}
+
+.input-busca button{
+    font-size: 20px;
+    border-style: none;
+    color: rgb(80, 80, 80);
+    cursor: pointer;
+    background-color: transparent;
+}

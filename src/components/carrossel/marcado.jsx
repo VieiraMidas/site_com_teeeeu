@@ -3,6 +3,6 @@ import './marcado.css'
 
 export default function Marcado(){
 	return(
-		<a href="" className="marcado" />
+		<a href="/novidades" className="marcado" />
 	)
 }

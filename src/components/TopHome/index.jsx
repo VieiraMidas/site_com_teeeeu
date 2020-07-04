@@ -1,15 +1,33 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {withRouter} from 'react-router-dom'
 import "./top.css"
 
-export default function Top(props){
+function Top(props){
+
+	const [search,setSearch] = useState ("");
+	
+	function buscar(e){
+		e.preventDefault()
+		props.history.push("/busca?q="+search)
+	}
+
 	return(
 		<div className="Header">
         	<div className="Logo">MTLyrics</div>
         	<h1>Música é vida</h1>
         	<div className="input-icon">
-        		<input type="text" name="search" id="search" placeholder="Digite a sua música"/>
-        		<span className="material-icons">search</span>
-      		</div>
+				<form onSubmit={buscar}>
+					<input 
+					type="text" 
+					name="q" 
+					id="q" 
+					placeholder="Digite a sua música" 
+					onChange={event=>setSearch(event.target.value)}/>
+					<button type="submit" className="material-icons">search</button>
+				</form>
+			</div>
       	</div>
 	)
 }
+
+export default withRouter(Top)
